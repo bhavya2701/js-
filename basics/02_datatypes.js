@@ -16,6 +16,14 @@ let state =null
 //null ==> stand alone value representation of empty value
 //undefined ==> variable declared but value not given 
 //symbol ==> uniquemess 
-console.log(typeof "bhavya")
-console.log(typeof null)
 
+// array object function ==>non primitive datatypes 
+const heroes=["shaktiman ","doga"]
+let myobj={
+    age:18,
+    name:"bhavya"
+}
+const myfunction =function(){
+    console.log("hello world");
+}
+console.log(typeof heroes)
