@@ -31,6 +31,22 @@ const myn2 =myarr.splice(1,3)
 
 const heroes =["thor ","ironman","spiderman"]
 const dc=["superman",'flash',"batman"]
-heroes.push(dc)
-console.log(heroes)
-onsole.log(heroes[3][1])
+// heroes.push(dc)
+// console.log(heroes)
+// console.log(heroes[3][1])
+const allheroes =heroes.concat(dc)
+// console.log(allheroes)
+const heroess =[...heroes,...dc] //spread 
+// console.log(heroess)
+
+const numbers=[1 ,2 ,3,[4,5],6,[7,[8,9]]]
+const real_numbers =numbers.flat(Infinity)
+// console.log(real_numbers)
+console.log(Array.isArray("bhavya"))
+console.log(Array.from("bhavya"))
+console.log(Array.from({name:"bhavya"}))// imp 
+
+let score1 =100
+let score2 =200
+let score3 =300
+console.log(Array.of(score1,score2,score3)) //multiple variables into a array ,gives a new array with all the elements 
